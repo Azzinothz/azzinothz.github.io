@@ -43,7 +43,7 @@
     
     <title>
         
-            关于CDN与P2P以及PCDN | 
+            Java学习记录-1 | 
         
         IM YYH
     </title>
@@ -54,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="Where I record my thoughts.">
-    <meta name="keywords" content=",Network">
+    <meta name="keywords" content=",Java">
     <meta name="theme-color" content="#00BCD4">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -210,7 +210,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="IM YYH">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2018/03/17/关于CDN与P2P以及PCDN/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/03/18/Java学习记录-1/">
     <meta name="msapplication-navbutton-color" content="#00BCD4">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="IM YYH">
@@ -225,16 +225,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2018/03/17/关于CDN与P2P以及PCDN/">
+    <meta property="og:url" content="http://yoursite.com/2018/03/18/Java学习记录-1/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="关于CDN与P2P以及PCDN | IM YYH">
+    <meta property="og:title" content="Java学习记录-1 | IM YYH">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="Where I record my thoughts.">
-    <meta property="og:article:tag" content="Network"> 
+    <meta property="og:article:tag" content="Java"> 
 
     
-        <meta property="article:published_time" content="Sat Mar 17 2018 23:01:07 GMT+0800">
-        <meta property="article:modified_time" content="Sat Mar 17 2018 23:36:16 GMT+0800">
+        <meta property="article:published_time" content="Sun Mar 18 2018 21:11:37 GMT+0800">
+        <meta property="article:modified_time" content="Sun Mar 18 2018 21:33:27 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -242,7 +242,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2018/03/17/关于CDN与P2P以及PCDN/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/03/18/Java学习记录-1/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -254,10 +254,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2018/03/17/关于CDN与P2P以及PCDN/index.html",
-    "headline": "关于CDN与P2P以及PCDN",
-    "datePublished": "Sat Mar 17 2018 23:01:07 GMT+0800",
-    "dateModified": "Sat Mar 17 2018 23:36:16 GMT+0800",
+    "mainEntityOfPage": "http://yoursite.com/2018/03/18/Java学习记录-1/index.html",
+    "headline": "Java学习记录-1",
+    "datePublished": "Sun Mar 18 2018 21:11:37 GMT+0800",
+    "dateModified": "Sun Mar 18 2018 21:33:27 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Ron You",
@@ -275,7 +275,7 @@
             "url": "/img/favicon.png"
         }
     },
-    "keywords": ",Network",
+    "keywords": ",Java",
     "description": "Where I record my thoughts.",
 }
 </script>
@@ -341,7 +341,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#CDN（内容分发网络）技术简介"><span class="post-toc-number">1.</span> <span class="post-toc-text">CDN（内容分发网络）技术简介</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#P2P（点对点网络）技术简介"><span class="post-toc-number">2.</span> <span class="post-toc-text">P2P（点对点网络）技术简介</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#PCDN（P2P-CDN）"><span class="post-toc-number">3.</span> <span class="post-toc-text">PCDN（P2P+CDN）</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#基本概念"><span class="post-toc-number">1.</span> <span class="post-toc-text">基本概念</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#JVM"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">JVM</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#JDK"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">JDK</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#JRE"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">JRE</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Eclipse"><span class="post-toc-number">2.</span> <span class="post-toc-text">Eclipse</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#基本流程"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">基本流程</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#常用快捷键"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">常用快捷键</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Alt"><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">Alt + /</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Ctrl-Shift-O"><span class="post-toc-number">2.2.2.</span> <span class="post-toc-text">Ctrl + Shift + O</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Ctrl-D"><span class="post-toc-number">2.2.3.</span> <span class="post-toc-text">Ctrl + D</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Ctrl"><span class="post-toc-number">2.2.4.</span> <span class="post-toc-text">Ctrl + /</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Java中的float和double"><span class="post-toc-number">3.</span> <span class="post-toc-text">Java中的float和double</span></a></li></ol>
     </ul>
     
 
@@ -361,10 +361,10 @@
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/timg.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/java_wallpaper_by_eleamsi-db5axsd.png)">
     
             <p class="article-headline-p">
-                关于CDN与P2P以及PCDN
+                Java学习记录-1
             </p>
         </div>
 
@@ -383,7 +383,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Ron You</strong>
-        <span>Mar 17, 2018</span>
+        <span>Mar 18, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -407,7 +407,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/Network/">Network</a>
+        <a class="post_tag-link" href="/tags/Java/">Java</a>
     </ul>
     
 
@@ -424,7 +424,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=关于CDN与P2P以及PCDN&url=http://yoursite.com/2018/03/17/关于CDN与P2P以及PCDN/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Java学习记录-1&url=http://yoursite.com/2018/03/18/Java学习记录-1/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -433,7 +433,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=关于CDN与P2P以及PCDN&url=http://yoursite.com/2018/03/17/关于CDN与P2P以及PCDN/index.html&via=Ron You" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Java学习记录-1&url=http://yoursite.com/2018/03/18/Java学习记录-1/index.html&via=Ron You" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -448,7 +448,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://yoursite.com/2018/03/17/关于CDN与P2P以及PCDN/index.html&title=关于CDN与P2P以及PCDN" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://yoursite.com/2018/03/18/Java学习记录-1/index.html&title=Java学习记录-1" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -457,7 +457,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=IM YYH&title=关于CDN与P2P以及PCDN&summary=Where I record my thoughts.&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/2018/03/17/关于CDN与P2P以及PCDN/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=IM YYH&title=Java学习记录-1&summary=Where I record my thoughts.&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/2018/03/18/Java学习记录-1/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -476,21 +476,37 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>今天半天时间都在写一个项目的主页，弄完已经快十点了… 不过还是坚持日更（差点断在这第三天）每天看点新东西。</p>
-<h1 id="CDN（内容分发网络）技术简介"><a href="#CDN（内容分发网络）技术简介" class="headerlink" title="CDN（内容分发网络）技术简介"></a>CDN（内容分发网络）技术简介</h1><blockquote>
-<p>内容分发网络（Content delivery network或Content distribution network，缩写：CDN）是指一种通过互联网互相连接的电脑网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、视频、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。</p>
+        <h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><h2 id="JVM"><a href="#JVM" class="headerlink" title="JVM"></a>JVM</h2><blockquote>
+<p>Java虚拟机（英语：Java Virtual Machine，缩写为JVM），一种能够运行Java bytecode的虚拟机，以堆栈结构机器来进行实做。最早由太阳微系统所研发并实现第一个实现版本，是Java平台的一部分，能够运行以Java语言写作的软件程序。<br>Java虚拟机有自己完善的硬体架构，如处理器、堆栈、寄存器等，还具有相应的指令系统。JVM屏蔽了与具体操作系统平台相关的信息，使得Java程序只需生成在Java虚拟机上运行的目标代码（字节码），就可以在多种平台上不加修改地运行。通过对中央处理器（CPU）所执行的软件实现，实现能执行编译过的Java程序码（Applet与应用程序）。 ———— From Wikipedia</p>
 </blockquote>
-<p>CDN是一个包括了分布式存储、负载均衡、网络请求的重定向和内容管理4个组件的整体系统，它的主要思想就是把内容资源从网络中心分发到离用户距离较近（或者别的条件）的网络边缘地带，利用其负载均衡技术将用户访问请求重定向到边缘服务器上，减小访问的响应时间，减缓骨干网络的压力。一个CDN网络主要由边缘节点构成。</p>
-<p>之前Steam在国内经常出现网络错误的原因就是CDN的问题：由于国家出台了相关规定，Steam不能使用曾经在国内架设的CDN（国内的CDN不能给未经备案的网站提供服务），因此针对国区更换为了境外的CDN，这就引发了一系列的访问问题。</p>
-<p>CDN的缺点在于其扩展性差，CDN服务器容易成为系统的瓶颈。</p>
-<h1 id="P2P（点对点网络）技术简介"><a href="#P2P（点对点网络）技术简介" class="headerlink" title="P2P（点对点网络）技术简介"></a>P2P（点对点网络）技术简介</h1><blockquote>
-<p>对等式网络（peer-to-peer， 简称P2P），又称点对点技术，是无中心服务器、依靠用户群（peers）交换信息的互联网体系，它的作用在于，减低以往网路传输中的节点，以降低资料遗失的风险。与有中心服务器的中央网络系统不同，对等网络的每个用户端既是一个节点，也有服务器的功能，任何一个节点无法直接找到其他节点，必须依靠其户群进行信息交流。</p>
+<h2 id="JDK"><a href="#JDK" class="headerlink" title="JDK"></a>JDK</h2><blockquote>
+<p>Java Development Kit（JDK）是太阳微系统针对Java开发人员发布的免费软件开发工具包（SDK，Software development kit）。自从Java推出以来，JDK已经成为使用最广泛的Java SDK。由于JDK的一部分特性采用商业许可证，而非开源[1]。因此，2006年太阳微系统宣布将发布基于GPL的开源JDK，使JDK成为自由软件。在去掉了少量闭源特性之后，太阳微系统最终促成了GPL的OpenJDK的发布。 ———— From Wikipedia</p>
 </blockquote>
-<p>P2P网络是一种共享网络，其中每个节点都是服务的供应者和接受者，每个节点都共享自己一部分硬件资源（计算能力、存储能力、传输能力等）。</p>
-<p>P2P的缺点也就因此凸显了出来：难以监管，盗版和乱七八糟的东西没法管制，而且还会“偷”网速（比如以前的迅雷）。</p>
-<h1 id="PCDN（P2P-CDN）"><a href="#PCDN（P2P-CDN）" class="headerlink" title="PCDN（P2P+CDN）"></a>PCDN（P2P+CDN）</h1><p>我们可以发现CDN和P2P的优缺点实际上是互补的，因此就有把这两种技术结合起来使用的想法。</p>
-<p>例如采用上层CDN下层P2P的网络架构。在CDN的基础上（仍然由中心服务器发给边缘服务器），在边缘服务器引入可管理的P2P自治区，由边缘服务器（可能是多个）和用户们组成，这样既能监管内容，也可以降低骨干网络的压力。</p>
-<p>还有一种就是在边缘服务器间建立P2P架构，就是把CDN服务器以P2P的方式连接起来，降低中心节点的负载。</p>
+<p>其作用主要是调试、编译源文件，生成文档等，包含着各种开发工具。</p>
+<h2 id="JRE"><a href="#JRE" class="headerlink" title="JRE"></a>JRE</h2><blockquote>
+<p>Java运行环境（Java Runtime Environment，简称JRE）是一个软件，由太阳微系统所研发，JRE可以让电脑系统运行Java应用程序（Java Application）。JRE的内部有一个Java虚拟机（Java Virtual Machine，JVM）以及一些标准的类别函数库（Class Library）。</p>
+</blockquote>
+<p>其作用主要是运行字节码文件，包含基础API和JVM。</p>
+<p>字节码文件运行在JVM中，字节码和虚拟机是实现Java一次编译即可四处跨平台运行的关键。</p>
+<h1 id="Eclipse"><a href="#Eclipse" class="headerlink" title="Eclipse"></a>Eclipse</h1><h2 id="基本流程"><a href="#基本流程" class="headerlink" title="基本流程"></a>基本流程</h2><ol>
+<li>创建一个 <code>Java Project</code>；</li>
+<li>创建 <code>Java package</code>, 包名为域名的反向（例如<code>top.imyyh</code>）；</li>
+<li>在包下创建类 <code>Java class</code>, class命名时文件开头要大写;</li>
+<li>编写源代码:<pre><code class="java"> public class helloWorld{
+     public static void main(String[] args){
+         System.out.println(&quot;Hello World.&quot;);
+     }
+ }
+</code></pre>
+</li>
+<li>运行程序: 源文件空白处右击选择run as -&gt;java anclication，运行成功；</li>
+</ol>
+<h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><h3 id="Alt"><a href="#Alt" class="headerlink" title="Alt + /"></a>Alt + /</h3><p>做为内容辅助提示，估计无人不用，当然它还可以用来做一些快速输入，比如初学者用得最多的System.out.println()，只要输入syso然后按此组合键，就自动完成并且将光标定位到括号内，其实一些常用的一些结构都可以用这个方法输入，比如for, try …catch等等，只要是在preference – java – editor – template中定义过的都可以这样用。</p>
+<h3 id="Ctrl-Shift-O"><a href="#Ctrl-Shift-O" class="headerlink" title="Ctrl + Shift + O"></a>Ctrl + Shift + O</h3><p>快速自动导入需要的包。</p>
+<h3 id="Ctrl-D"><a href="#Ctrl-D" class="headerlink" title="Ctrl + D"></a>Ctrl + D</h3><p>删除当前行或者选中行。</p>
+<h3 id="Ctrl"><a href="#Ctrl" class="headerlink" title="Ctrl + /"></a>Ctrl + /</h3><p>用单行注释 注释 /取消注释 当前行或者选中行，调试程序里难免要暂时关闭一些代码，所以它的使用率还是挺高的。 功能类似的快捷键还有Ctrl + sift + /和Ctrl + sift + \ 这一对，把选中部分用多行注释或者取消。</p>
+<h1 id="Java中的float和double"><a href="#Java中的float和double" class="headerlink" title="Java中的float和double"></a>Java中的float和double</h1><p>double精度高，有效数字16位，float精度7位。但double消耗内存是float的两倍，double的运算速度比float慢得多，java语言中数学函数名称double和float不同，不要写错，能用单精度时不要用双精度（以省内存，加快运算速度）。</p>
+<p>如果声明：<code>float x = 4.0</code>则会报错，需要如下写法：<code>float x = 4.0f</code>或者<code>float x = (float)4.0</code>。其中4.0f后面的f只是为了区别double。</p>
 
         
     
@@ -511,21 +527,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2018/03/18/Java学习记录-1/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2018/03/16/如何使用Github-Pages服务/" id="post_nav-older" class="next-content">
+        <a href="/2018/03/17/关于CDN与P2P以及PCDN/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
