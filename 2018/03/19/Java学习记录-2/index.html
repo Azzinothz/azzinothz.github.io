@@ -43,7 +43,7 @@
     
     <title>
         
-            Archives | 
+            Java学习记录-2 | 
         
         IM YYH
     </title>
@@ -54,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="Where I record my thoughts.">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",Java">
     <meta name="theme-color" content="#00BCD4">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -210,7 +210,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="IM YYH">
-    <meta name="msapplication-starturl" content="http://yoursite.com/archives/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/03/19/Java学习记录-2/">
     <meta name="msapplication-navbutton-color" content="#00BCD4">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="IM YYH">
@@ -225,13 +225,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/archives/">
+    <meta property="og:url" content="http://yoursite.com/2018/03/19/Java学习记录-2/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Archives | IM YYH">
+    <meta property="og:title" content="Java学习记录-2 | IM YYH">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="Where I record my thoughts.">
-    
+    <meta property="og:article:tag" content="Java"> 
 
+    
+        <meta property="article:published_time" content="Mon Mar 19 2018 22:37:37 GMT+0800">
+        <meta property="article:modified_time" content="Mon Mar 19 2018 22:47:49 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -239,13 +242,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/archives/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/03/19/Java学习记录-2/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://yoursite.com/2018/03/19/Java学习记录-2/index.html",
+    "headline": "Java学习记录-2",
+    "datePublished": "Mon Mar 19 2018 22:37:37 GMT+0800",
+    "dateModified": "Mon Mar 19 2018 22:47:49 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Ron You",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avataryyh.png"
+        },
+        "description": "Where I record my thoughts."
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "IM YYH",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",Java",
+    "description": "Where I record my thoughts.",
+}
+</script>
 
 
     
@@ -279,362 +312,251 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#构造方法"><span class="post-toc-number">1.</span> <span class="post-toc-text">构造方法</span></a></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/java_wallpaper_by_eleamsi-db5axsd.png">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/java_wallpaper_by_eleamsi-db5axsd.png)">
     
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/19/Java学习记录-2/">Java学习记录-2</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            构造方法
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/19/Java学习记录-2/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avataryyh.png" width="44px" height="44px" alt="Ron You's avatar">
-            </div>
-            <div>
-                <strong>Ron You</strong>
-                <span>Mar 19, 2018</span>
-            </div>
+            <p class="article-headline-p">
+                Java学习记录-2
+            </p>
         </div>
-        <div id="post_entry-right-info">
-          
 
-            
 
-            
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avataryyh.png" width="44px" height="44px" alt="Author Avatar"/>
     </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/java_wallpaper_by_eleamsi-db5axsd.png">
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/18/Java学习记录-1/">Java学习记录-1</a></p>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Ron You</strong>
+        <span>Mar 19, 2018</span>
     </div>
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            基本概念
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/18/Java学习记录-1/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avataryyh.png" width="44px" height="44px" alt="Ron You's avatar">
-            </div>
-            <div>
-                <strong>Ron You</strong>
-                <span>Mar 18, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
+    <div class="section-spacer"></div>
 
-            
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
 
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/timg.jpg">
+    <!-- Qrcode -->
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/17/关于CDN与P2P以及PCDN/">关于CDN与P2P以及PCDN</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            今天半天时间都在写一个项目的主页，弄完已经快十点了… 不过还是坚持日更（差点断在这第三天）每天看点新东西。
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/17/关于CDN与P2P以及PCDN/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avataryyh.png" width="44px" height="44px" alt="Ron You's avatar">
-            </div>
-            <div>
-                <strong>Ron You</strong>
-                <span>Mar 17, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
+    <!-- Tags (bookmark) -->
     
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/github-1-insights-success.jpg">
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Java/">Java</a>
+    </ul>
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/16/如何使用Github-Pages服务/">如何使用Github-Pages服务</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/16/如何使用Github-Pages服务/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avataryyh.png" width="44px" height="44px" alt="Ron You's avatar">
-            </div>
-            <div>
-                <strong>Ron You</strong>
-                <span>Mar 16, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
+    <!-- Share -->
     
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/5a7908adca78508e0f9bde8fb2fb80ca.jpg">
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/15/浅谈微信小程序与Web应用和传统移动APP的联系与对比/">浅谈微信小程序与Web应用和传统移动APP的联系与对比</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            微信小程序
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/15/浅谈微信小程序与Web应用和传统移动APP的联系与对比/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avataryyh.png" width="44px" height="44px" alt="Ron You's avatar">
-            </div>
-            <div>
-                <strong>Ron You</strong>
-                <span>Mar 15, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/hello-world.jpg">
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/14/Hello-World/">Hello-World</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/14/Hello-World/" target="_self">Read more</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avataryyh.png" width="44px" height="44px" alt="Ron You's avatar">
-            </div>
-            <div>
-                <strong>Ron You</strong>
-                <span>Mar 14, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
     
 
     
 
+    <!-- Share Weibo -->
     
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Java学习记录-2&url=http://yoursite.com/2018/03/19/Java学习记录-2/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Weibo
+            </li>
+        </a>
+    
 
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Java学习记录-2&url=http://yoursite.com/2018/03/19/Java学习记录-2/index.html&via=Ron You" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Twitter
+            </li>
+        </a>
+    
 
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
+    <!-- Share Facebook -->
+    
 
-        locatePost = locatePost.next();
-    }
-</script>
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://yoursite.com/2018/03/19/Java学习记录-2/index.html&title=Java学习记录-2" target="_blank">
+            <li class="mdl-menu__item">
+                Share to LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=IM YYH&title=Java学习记录-2&summary=Where I record my thoughts.&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/2018/03/19/Java学习记录-2/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
 
     
 </div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h1 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h1><ol>
+<li>使用new+构造方法创建一个新的对象；</li>
+<li><p>构造方法是定义在Java类中的一个用来初始化对象的方法,<strong>构造方法与类同名且没有返回值</strong>；</p>
+<p> 构造方法的语法格式:</p>
+<pre><code class="java"> public 构造方法名(){
+ //初始化代码
+ }
+</code></pre>
+<p> public后面没有返回值类型,构造方法名与类名相同,括号内可以指定参数;</p>
+</li>
+<li><p>无参构造方法的使用</p>
+<p> main():</p>
+<pre><code class="java"> Telphone phone=new Telphone();
+</code></pre>
+<p> class TelPhone:</p>
+<pre><code class="java"> public Telphone(){
+     System.out.println(&quot;Telphone构造方法执行了&quot;);
+ }
+</code></pre>
+<p> 如果我们没有指定一个无参的构造方法,那系统会帮我们自动生成一个无参的构造方法,如果我们对系统生成的无参构造方法不满意,可以自定义一个无参的构造方法;</p>
+<p> 也就是说当我们创建对象的时候,其实我们执行的是构造方法;</p>
+</li>
+<li><p>有参构造方法的使用</p>
+<p> main():</p>
+<pre><code class="java"> Telphone phone2=new Telphone(4.0f, 2.0f, 2.0f);
+</code></pre>
+<p> class Telphone:</p>
+<pre><code class="java"> public Telphone(float newScreen,float newCpu,float newMem){
+     screen=newScreen;
+     cpu=newCpu;
+     mem=newMem;
+ }
+</code></pre>
+<p> 有参构造方法的目的就是初始化对象中成员变量的值;</p>
+<p> 通过无参或者有参的构造方法都可以创建对象,但是后者不但可以创建对象而且可以给对象中的实例变量赋初值;</p>
+</li>
+<li><p>当没有指定构造方法时,系统会自动添加无参的构造方法;</p>
+</li>
+<li>当有指定构造方法时,无论是有参无参的构造方法,都不会自动添加无参的构造方法;</li>
+<li>构造方法的重载:方法名相同,但参数不同的多个方法,调用时会自动根据不同的参数选择相应的方法;</li>
+<li>构造方法不但可以给对象的属性赋值,还可以保证给对象的属性赋一个合理的值。</li>
+</ol>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/03/18/Java学习记录-1/" id="post_nav-older" class="next-content">
+            Older
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
