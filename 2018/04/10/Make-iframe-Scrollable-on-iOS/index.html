@@ -234,7 +234,7 @@
 
     
         <meta property="article:published_time" content="Tue Apr 10 2018 15:22:20 GMT+0800">
-        <meta property="article:modified_time" content="Tue Apr 10 2018 15:43:14 GMT+0800">
+        <meta property="article:modified_time" content="Mon May 14 2018 23:34:45 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -257,7 +257,7 @@
     "mainEntityOfPage": "http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/index.html",
     "headline": "Make-iframe-Scrollable-on-iOS",
     "datePublished": "Tue Apr 10 2018 15:22:20 GMT+0800",
-    "dateModified": "Tue Apr 10 2018 15:43:14 GMT+0800",
+    "dateModified": "Mon May 14 2018 23:34:45 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Ron You",
@@ -360,8 +360,17 @@
                 
     <!-- Paradox Post Header -->
     
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/simons_cat_cartoon_texture_cat_94395_3840x2160.jpg)">
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
     
             <p class="article-headline-p">
                 Make-iframe-Scrollable-on-iOS
