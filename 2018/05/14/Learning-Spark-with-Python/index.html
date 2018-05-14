@@ -43,7 +43,7 @@
     
     <title>
         
-            Make-iframe-Scrollable-on-iOS | 
+            Learning Spark with Python -- About RDD and Simple Concepts | 
         
         IM YYH
     </title>
@@ -54,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="Where I record my thoughts.">
-    <meta name="keywords" content=",CSS">
+    <meta name="keywords" content=",Spark">
     <meta name="theme-color" content="#00BCD4">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -210,7 +210,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="IM YYH">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/05/14/Learning-Spark-with-Python/">
     <meta name="msapplication-navbutton-color" content="#00BCD4">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="IM YYH">
@@ -225,16 +225,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/">
+    <meta property="og:url" content="http://yoursite.com/2018/05/14/Learning-Spark-with-Python/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Make-iframe-Scrollable-on-iOS | IM YYH">
+    <meta property="og:title" content="Learning Spark with Python -- About RDD and Simple Concepts | IM YYH">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="Where I record my thoughts.">
-    <meta property="og:article:tag" content="CSS"> 
+    <meta property="og:article:tag" content="Spark"> 
 
     
-        <meta property="article:published_time" content="Tue Apr 10 2018 15:22:20 GMT+0800">
-        <meta property="article:modified_time" content="Tue Apr 10 2018 15:43:14 GMT+0800">
+        <meta property="article:published_time" content="Mon May 14 2018 22:42:00 GMT+0800">
+        <meta property="article:modified_time" content="Mon May 14 2018 23:22:21 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -242,7 +242,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/05/14/Learning-Spark-with-Python/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -254,10 +254,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/index.html",
-    "headline": "Make-iframe-Scrollable-on-iOS",
-    "datePublished": "Tue Apr 10 2018 15:22:20 GMT+0800",
-    "dateModified": "Tue Apr 10 2018 15:43:14 GMT+0800",
+    "mainEntityOfPage": "http://yoursite.com/2018/05/14/Learning-Spark-with-Python/index.html",
+    "headline": "Learning Spark with Python -- About RDD and Simple Concepts",
+    "datePublished": "Mon May 14 2018 22:42:00 GMT+0800",
+    "dateModified": "Mon May 14 2018 23:22:21 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Ron You",
@@ -275,7 +275,7 @@
             "url": "/img/favicon.png"
         }
     },
-    "keywords": ",CSS",
+    "keywords": ",Spark",
     "description": "Where I record my thoughts.",
 }
 </script>
@@ -341,7 +341,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Make-iframe-Scrollable-on-iOS"><span class="post-toc-number">1.</span> <span class="post-toc-text">Make iframe Scrollable on iOS</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#HTML-Part"><span class="post-toc-number">2.</span> <span class="post-toc-text">HTML Part</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#CSS-Part"><span class="post-toc-number">3.</span> <span class="post-toc-text">CSS Part</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#RDD-Resilient-Distributed-Datasets"><span class="post-toc-number">1.</span> <span class="post-toc-text">RDD (Resilient Distributed Datasets)</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#What-is-a-dataset"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">What is a dataset?</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#RDD"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">RDD</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#What-can-we-do-with-RDDs"><span class="post-toc-number">2.</span> <span class="post-toc-text">What can we do with RDDs?</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Transformations"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">Transformations</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Actions"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">Actions</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Spark-RDD-general-workflow"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">Spark RDD general workflow</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#How-to-create-an-RDD"><span class="post-toc-number">3.</span> <span class="post-toc-text">How to create an RDD</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#A-simple-way"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">A simple way</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#The-common-way"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">The common way</span></a></li></ol></li></ol>
     </ul>
     
 
@@ -361,10 +361,10 @@
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/simons_cat_cartoon_texture_cat_94395_3840x2160.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/1_Gvo0ep9MCvQcCQUBQ0TD9Q.png)">
     
             <p class="article-headline-p">
-                Make-iframe-Scrollable-on-iOS
+                Learning Spark with Python -- About RDD and Simple Concepts
             </p>
         </div>
 
@@ -383,7 +383,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Ron You</strong>
-        <span>Apr 10, 2018</span>
+        <span>May 14, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -407,7 +407,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/CSS/">CSS</a>
+        <a class="post_tag-link" href="/tags/Spark/">Spark</a>
     </ul>
     
 
@@ -424,7 +424,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Make-iframe-Scrollable-on-iOS&url=http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Learning Spark with Python -- About RDD and Simple Concepts&url=http://yoursite.com/2018/05/14/Learning-Spark-with-Python/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -433,7 +433,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Make-iframe-Scrollable-on-iOS&url=http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/index.html&via=Ron You" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Learning Spark with Python -- About RDD and Simple Concepts&url=http://yoursite.com/2018/05/14/Learning-Spark-with-Python/index.html&via=Ron You" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -448,7 +448,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/index.html&title=Make-iframe-Scrollable-on-iOS" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://yoursite.com/2018/05/14/Learning-Spark-with-Python/index.html&title=Learning Spark with Python -- About RDD and Simple Concepts" target="_blank">
             <li class="mdl-menu__item">
                 Share to LinkedIn
             </li>
@@ -457,7 +457,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=IM YYH&title=Make-iframe-Scrollable-on-iOS&summary=Where I record my thoughts.&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/2018/04/10/Make-iframe-Scrollable-on-iOS/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=IM YYH&title=Learning Spark with Python -- About RDD and Simple Concepts&summary=Where I record my thoughts.&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/2018/05/14/Learning-Spark-with-Python/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to QQ
             </li>
@@ -476,23 +476,42 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="Make-iframe-Scrollable-on-iOS"><a href="#Make-iframe-Scrollable-on-iOS" class="headerlink" title="Make iframe Scrollable on iOS"></a>Make iframe Scrollable on iOS</h1><p>Once I used iframe to put a chart on my home page, I could see the scroll bar on my laptop Chrome and it could be used as I expected. But when I tried it on my iPad Chrome, the chart was fixed and couldn’t be moved by my finger. I googled it and I found a method which was pretty effective and simple.</p>
-<h1 id="HTML-Part"><a href="#HTML-Part" class="headerlink" title="HTML Part"></a>HTML Part</h1><p>First we need a wrapper(I used a ‘division’) to pack the iframe element:</p>
-<pre><code class="html">&lt;div class=&quot;scroll-wrapper&quot;&gt;  
-    &lt;iframe src=&quot;&quot;&gt;&lt;/iframe&gt;  
-&lt;/div&gt;  
+        <h1 id="RDD-Resilient-Distributed-Datasets"><a href="#RDD-Resilient-Distributed-Datasets" class="headerlink" title="RDD (Resilient Distributed Datasets)"></a>RDD (Resilient Distributed Datasets)</h1><p>RDD is the core object that we will be using when deveoping with Spark applications. It’s very important.</p>
+<h2 id="What-is-a-dataset"><a href="#What-is-a-dataset" class="headerlink" title="What is a dataset?"></a>What is a dataset?</h2><p>A dataset is basically a <strong>collection of data</strong>; it can be a list of strings, integers or even a number of rows in a relational DB.</p>
+<h2 id="RDD"><a href="#RDD" class="headerlink" title="RDD"></a>RDD</h2><p>RDDs can contain <strong>any types of objects</strong>, including user-defined classes.</p>
+<p>An RDD is simply a <strong>capsulation</strong> around a <strong>very large dataset</strong>. In Spark all work is expressed as either creating new RDDs, transforming existing RDDs, or calling operations on RDDs to compute a result.</p>
+<p>Under the hood, Spark will automatically <strong>distribute the data</strong> contained in RDDs across your cluster and <strong>patallelize</strong> the operations you perform on them.</p>
+<h1 id="What-can-we-do-with-RDDs"><a href="#What-can-we-do-with-RDDs" class="headerlink" title="What can we do with RDDs?"></a>What can we do with RDDs?</h1><ul>
+<li>Transformations</li>
+<li>Actions</li>
+</ul>
+<h2 id="Transformations"><a href="#Transformations" class="headerlink" title="Transformations"></a>Transformations</h2><p>Apply some <strong>functions</strong> to the data in RDD to <strong>create a new RDD</strong>.</p>
+<p>One of the most common transformation is <strong>filter</strong> which will return a new RDD with a subset of the data in the original RDD.</p>
+<pre><code class="python">lines = sc.textFile(&quot;in/uppercase.txt&quot;)
+linesWithFriday = lines.filter(lambda line: &quot;Friday&quot; in line)
 </code></pre>
-<p>This Div will be used as a basic container which allows the inside content to scroll.</p>
-<h1 id="CSS-Part"><a href="#CSS-Part" class="headerlink" title="CSS Part"></a>CSS Part</h1><pre><code class="CSS">.scroll-wrapper {  
-    -webkit-overflow-scrolling: touch;  
-    overflow-y: scroll;  
-    /* We can add the dimensions or the positioning style here. */  
-}  
-.scroll-wrapper iframe {  
-    /* Where we put the styles. */  
-}  
+<h2 id="Actions"><a href="#Actions" class="headerlink" title="Actions"></a>Actions</h2><p>Compute a <strong>result</strong> based on an RDD.</p>
+<p>One of the most popular Actions is <strong>first</strong>, which returns the first element in an RDD.</p>
+<pre><code class="python">lines = sc.textFile(&quot;in/uppercase.txt&quot;)
+firstLine = lines.first()
 </code></pre>
-<p>The property ‘-webkit-overflow-scrolling’ is designed for the elements which need to be scrolled when overflow happens. If it is not written, what we are scrolling is actually the outer page but not the page inside the iframe.</p>
+<h2 id="Spark-RDD-general-workflow"><a href="#Spark-RDD-general-workflow" class="headerlink" title="Spark RDD general workflow"></a>Spark RDD general workflow</h2><ol>
+<li>Generate <strong>initial RDDs</strong> from external data.</li>
+<li>Apply <strong>transformations</strong>.</li>
+<li>Launch <strong>actions</strong>.</li>
+</ol>
+<h1 id="How-to-create-an-RDD"><a href="#How-to-create-an-RDD" class="headerlink" title="How to create an RDD"></a>How to create an RDD</h1><h2 id="A-simple-way"><a href="#A-simple-way" class="headerlink" title="A simple way"></a>A simple way</h2><p>Take an existing collection in your program and pass it to SparkContext’s <strong>parallelize</strong> method.</p>
+<pre><code class="python">inputIntegers = list(range(1,6))
+integerRdd = sc.parallelize(inputIntegers)
+</code></pre>
+<p>All the elements in the collection will then be copied to form a <strong>distributed dataset</strong> that can be operated on in <strong>parallel</strong>.</p>
+<p>This is very handy to create an RDD with <strong>little effort</strong>, <strong>but it’s not pracical working with large datasets</strong>.</p>
+<h2 id="The-common-way"><a href="#The-common-way" class="headerlink" title="The common way"></a>The common way</h2><p>Load RDDs from external storage by calling <strong>textFile</strong> method on SparkContext.</p>
+<pre><code class="python">sc = SparkContext(&quot;local&quot;,&quot;textfile&quot;)
+lines = sc.textFile(&quot;in/uppercase.txt&quot;)
+</code></pre>
+<p>The external storage is usually a distributed file system such as Amazon S3 or HDFS.</p>
+<p>There are other data sources which can be integrated with Spark and used to create RDDs including JDBC, Cassandra, and Elastisearch, etc.</p>
 
         
     
@@ -513,21 +532,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2018/05/14/Learning-Spark-with-Python/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2018/04/07/My-Understanding-of-OOP/" id="post_nav-older" class="next-content">
+        <a href="/2018/04/10/Make-iframe-Scrollable-on-iOS/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
